@@ -1,0 +1,9 @@
+The correct use of the `calc()` function ensures proper space around the operators.  For example:
+
+```css
+width: calc(100% - 50px);
+height: calc(100vh - 200px);
+margin: calc(50px + 10%);
+```
+
+Note the spaces surrounding the `+` and `-` operators. Without these spaces, the `calc()` function may not parse correctly, potentially leading to unexpected or incorrect rendering.
